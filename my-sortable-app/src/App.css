@@ -1,0 +1,84 @@
+/* DragAndDrop.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4a90e2, #50b5d3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.drag-and-drop-container {
+  width: 1200px;
+  height: 800%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drag-and-drop-wrapper {
+  display: flex;
+  gap: 20px;
+  width: 1200px;
+  height: 600px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.list-container {
+  flex: 1;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h3 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.list-item {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.list-item:hover {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.input-item,
+.select-item {
+  width: 93%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.button-item {
+  padding: 8px 12px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-item:hover {
+  background: #357ab8;
+}
+
+.paragraph-item {
+  font-size: 1rem;
+  color: #555;
+  margin: 0;
+}
